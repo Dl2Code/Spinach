@@ -9,7 +9,7 @@ for _ in range(n):
 
 students = list(filter(None, students))
 print("\nThere are", len(students), "students & all of them will be shuffled in a group")
-groups = int(input("How many groups? "))
+groups = int(input("How many groups do you want to create? "))
 
 shuffle(students)
 students_group = np.array_split(np.array(students), groups)
